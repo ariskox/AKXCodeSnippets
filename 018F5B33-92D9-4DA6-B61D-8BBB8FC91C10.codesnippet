@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@propertyStrongNSMutableArray</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassInterfaceMethods</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/** &lt;#comment#&gt; */
+@property (nonatomic, strong) NSMutableArray *&lt;#propertyName#&gt;;
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>018F5B33-92D9-4DA6-B61D-8BBB8FC91C10</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A declaration of a strong NSMutableArray property</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Property, Strong, NSMutableArray</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>0</integer>
+</dict>
+</plist>

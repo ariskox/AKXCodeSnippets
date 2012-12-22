@@ -7,6 +7,16 @@ My Xcode Code Snippets.
 
 (This snippet list was generated using [Kirby Turner's](http://github.com/kirbyt) 'lscs.py')
 
+## Property, Strong, NSMutableArray
+**Shortcut**: @propertyStrongNSMutableArray  
+**File**: [018F5B33-92D9-4DA6-B61D-8BBB8FC91C10.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/018F5B33-92D9-4DA6-B61D-8BBB8FC91C10.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: A declaration of a strong NSMutableArray property  
+
+    /** <#comment#> */  
+    @property (nonatomic, strong) NSMutableArray *<#propertyName#>;  
+      
+
 ## CellForRowAtIndexPath Block
 **Shortcut**: cellforrow  
 **File**: [1B9E3BE9-302D-4D28-A380-B8507E42C3F4.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/1B9E3BE9-302D-4D28-A380-B8507E42C3F4.codesnippet)  
@@ -74,6 +84,16 @@ My Xcode Code Snippets.
     @property (nonatomic, weak) <#type#> *<#propertyName#>;  
       
 
+## Property, Strong, NSString
+**Shortcut**: @propertyStrongNSString  
+**File**: [2853A27C-4F26-4315-8F5A-FCAF3F19B4D2.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/2853A27C-4F26-4315-8F5A-FCAF3F19B4D2.codesnippet)  
+**Scope**: All  
+**Summary**: A declaration of a NSString strong property  
+
+    /** <#comment#> */  
+    @property (nonatomic, strong) NSString *<#propertyName#>;  
+      
+
 ## Method implementation, returns NSString *
 **Shortcut**: nsstring  
 **File**: [3EFBDA27-B6B1-411C-9BF6-CE0BB585207E.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/3EFBDA27-B6B1-411C-9BF6-CE0BB585207E.codesnippet)  
@@ -112,6 +132,16 @@ My Xcode Code Snippets.
 
     /** <#comments#> */  
     - (NSString *) <#methodname#>;  
+      
+
+## Property, strong, NSArray
+**Shortcut**: @propertyStrongNSArray  
+**File**: [5C28E459-9EB1-4AEE-BE43-A5A92A11A10B.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/5C28E459-9EB1-4AEE-BE43-A5A92A11A10B.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: A declaration of a strong NSArray property  
+
+    /** <#comment#> */  
+    @property (nonatomic, strong) NSArray *<#propertyName#>;  
       
 
 ## viewWillDisappear: method
@@ -173,6 +203,14 @@ My Xcode Code Snippets.
     }  
       
 
+## NSLog
+**Shortcut**: nslog  
+**File**: [7FD9DEC2-EA51-4DE0-902C-8F552C1F5258.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/7FD9DEC2-EA51-4DE0-902C-8F552C1F5258.codesnippet)  
+**Scope**: CodeBlock  
+**Summary**: Simple NSLog snippet  
+
+    NSLog(@"<#formatstring#>",<#variables#>);  
+
 ## Property, strong
 **Shortcut**: @propertyStrong  
 **File**: [8A9DBFC2-A299-4510-B648-13D7B2851F89.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/8A9DBFC2-A299-4510-B648-13D7B2851F89.codesnippet)  
@@ -224,6 +262,16 @@ My Xcode Code Snippets.
     }  
       
 
+## Property, strong, NSNumber
+**Shortcut**: @propertyStrongNSNumber  
+**File**: [A1E58414-4093-41B1-BE27-6F0E99E52918.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/A1E58414-4093-41B1-BE27-6F0E99E52918.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: A declaration of a strong NSNumber property  
+
+    /** <#comment#> */  
+    @property (nonatomic, strong) NSNumber *<#propertyName#>;  
+      
+
 ## Method declaration, returns VOID
 **Shortcut**: void  
 **File**: [A5062BFB-6DC4-4D67-9FC8-BC6F4D41FF79.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/A5062BFB-6DC4-4D67-9FC8-BC6F4D41FF79.codesnippet)  
@@ -232,6 +280,16 @@ My Xcode Code Snippets.
 
     /** <#comments#> */  
     - (void) <#methodname#>;  
+      
+
+## Property, strong, NSDate
+**Shortcut**: @propertyStrongNSDate  
+**File**: [AC21B10E-CD83-49D7-A9C0-06BB21E9067B.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/AC21B10E-CD83-49D7-A9C0-06BB21E9067B.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: A declaration of a strong NSDate Property  
+
+    /** <#comment#> */  
+    @property (nonatomic, strong) NSDate *<#propertyName#>;  
       
 
 ## NSLog CGRect
