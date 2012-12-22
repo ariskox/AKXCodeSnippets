@@ -3,26 +3,23 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewDidUnload</string>
+	<string>void</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>ClassInterfaceMethods</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    &lt;#append your code here#&gt;
-}
+	<string>/** &lt;#comments#&gt; */
+- (void) &lt;#methodname#&gt;;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>665D4E24-7070-43AF-8852-D1F238B805C0</string>
+	<string>A5062BFB-6DC4-4D67-9FC8-BC6F4D41FF79</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>A viewDidUnload method implementation</string>
+	<string>A declaration of a method that returns void</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>viewDidUnload method</string>
+	<string>Method declaration, returns VOID</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

@@ -104,6 +104,16 @@ My Xcode Code Snippets.
     }  
       
 
+## Method declaration, returns NSString *
+**Shortcut**: nsstring *  
+**File**: [541DB8DC-4C48-11E2-A1DE-58B035F72A9C.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/541DB8DC-4C48-11E2-A1DE-58B035F72A9C.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: A declaration of a method that returns NSString *  
+
+    /** <#comments#> */  
+    - (NSString *) <#methodname#>;  
+      
+
 ## viewWillDisappear: method
 **Shortcut**: viewWillDisappear  
 **File**: [5F52B985-9B99-442F-8E73-9712B087D012.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/5F52B985-9B99-442F-8E73-9712B087D012.codesnippet)  
@@ -115,6 +125,16 @@ My Xcode Code Snippets.
         [super viewWillDisappear:animated];  
         <#append your code here#>  
     }  
+      
+
+## Method declaration, returns BOOL
+**Shortcut**: BOOL  
+**File**: [601395EB-4C48-11E2-9FDD-58B035F72A9C.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/601395EB-4C48-11E2-9FDD-58B035F72A9C.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: A declaration of a method that returns BOOL  
+
+    /** <#comments#> */  
+    - (BOOL) <#methodname#>;  
       
 
 ## Property, UILabel, strong
@@ -141,7 +161,7 @@ My Xcode Code Snippets.
     }  
 
 ## viewDidUnload method
-**Shortcut**: viewdidunload  
+**Shortcut**: viewDidUnload  
 **File**: [665D4E24-7070-43AF-8852-D1F238B805C0.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/665D4E24-7070-43AF-8852-D1F238B805C0.codesnippet)  
 **Scope**: ClassImplementation  
 **Summary**: A viewDidUnload method implementation  
@@ -161,6 +181,25 @@ My Xcode Code Snippets.
 
     /** <#comment#> */  
     @property (nonatomic, strong) <#type#> *<#propertyName#>;  
+      
+
+## Class Comments
+**Shortcut**: comment  
+**File**: [8AC0941D-3E54-4F88-9591-716BCFEF6577.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/8AC0941D-3E54-4F88-9591-716BCFEF6577.codesnippet)  
+**Scope**: TopLevel  
+**Summary**: The standard comments for each class  
+
+    /****************************************************************************************/  
+    /*	class <#classname#>	*/  
+    /****************************************************************************************/  
+    /**  
+     <#insert class description#>  
+       
+     Sample use:  
+     <#insert sample use here#>  
+       
+     See also: <#seealso#>  
+     */  
       
 
 ## Weak Self
@@ -183,6 +222,16 @@ My Xcode Code Snippets.
         [super viewDidDisappear:animated];  
         <#append your code here#>  
     }  
+      
+
+## Method declaration, returns VOID
+**Shortcut**: void  
+**File**: [A5062BFB-6DC4-4D67-9FC8-BC6F4D41FF79.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/A5062BFB-6DC4-4D67-9FC8-BC6F4D41FF79.codesnippet)  
+**Scope**: ClassInterfaceMethods  
+**Summary**: A declaration of a method that returns void  
+
+    /** <#comments#> */  
+    - (void) <#methodname#>;  
       
 
 ## NSLog CGRect
