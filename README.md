@@ -1,7 +1,13 @@
 AKXCodeSnippets
 ===============
 
-My Xcode code snippets.## CellForRowAtIndexPath Block
+My Xcode Code Snippets.
+
+# Code Snippet listing
+
+(This snippet list was generated using [Kirby Turner's](http://github.com/kirbyt) 'lscs.py')
+
+## CellForRowAtIndexPath Block
 **Shortcut**: cellforrow  
 **File**: [1B9E3BE9-302D-4D28-A380-B8507E42C3F4.codesnippet](http://github.com/ariskox/AKXCodeSnippets/blob/master/1B9E3BE9-302D-4D28-A380-B8507E42C3F4.codesnippet)  
 **Scope**: All  
