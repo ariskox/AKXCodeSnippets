@@ -9,7 +9,7 @@
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__unsafe_unretained id weakSelf = self;
+	<string>__weak typeof(self) weakSelf = self;
 </string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>9358E293-2334-4A53-829E-EC314416EAD8</string>

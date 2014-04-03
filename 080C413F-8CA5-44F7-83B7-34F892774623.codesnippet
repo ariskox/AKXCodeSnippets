@@ -3,23 +3,20 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@propertyStrongNSMutableArray</string>
+	<string>ismainthread</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#comment#&gt; */
-@property (nonatomic, strong) NSMutableArray *&lt;#propertyName#&gt;;
+	<string>    NSAssert([NSThread isMainThread], @"&lt;#message#&gt;");
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>018F5B33-92D9-4DA6-B61D-8BBB8FC91C10</string>
+	<string>080C413F-8CA5-44F7-83B7-34F892774623</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
-	<key>IDECodeSnippetSummary</key>
-	<string>A declaration of a strong NSMutableArray property</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property, Strong, NSMutableArray</string>
+	<string>Assert is Main thread</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

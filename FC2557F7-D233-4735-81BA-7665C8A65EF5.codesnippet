@@ -3,27 +3,41 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>initWithNibName</string>
+	<string>initViewController</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+	<string>- (id) initWithCoder:(NSCoder *)aDecoder
 {
-	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-	if (self) {
-		&lt;#insertCodeHere#&gt;
+	self = [super initWithCoder:aDecoder];
+    if (self) {
+		[self performInitialization];
 	}
 	return self;
 }
+
+- (id) initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+{
+	self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
+	if (self) {
+        [self performInitialization];
+	}
+	return self;
+}
+
+- (void) performInitialization
+{
+
+}
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>254E2998-B66D-451E-B939-DA8E7AC62219</string>
+	<string>FC2557F7-D233-4735-81BA-7665C8A65EF5</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>initWithNibName</string>
+	<string>Init view controller</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

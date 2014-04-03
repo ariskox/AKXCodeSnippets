@@ -3,23 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>@propertyStrongNSMutableArray</string>
+	<string>dev</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassInterfaceMethods</string>
+		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>/** &lt;#comment#&gt; */
-@property (nonatomic, strong) NSMutableArray *&lt;#propertyName#&gt;;
+	<string>#if DEVELOPMENT_VERSION &amp;&amp; DEBUG &amp;&amp; 1
+    &lt;#insertcodehere#&gt;
+#endif
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>018F5B33-92D9-4DA6-B61D-8BBB8FC91C10</string>
+	<string>F1DD02A6-A0F3-4072-A04D-9BDF0F9D9324</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C-Plus-Plus</string>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>A declaration of a strong NSMutableArray property</string>
+	<string>Stub for development version code</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Property, Strong, NSMutableArray</string>
+	<string>Development Version Block</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
