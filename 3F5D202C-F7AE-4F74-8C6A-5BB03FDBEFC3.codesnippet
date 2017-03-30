@@ -3,31 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>comment</string>
+	<string>viewdidappear</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>All</string>
+		<string>ClassImplementation</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    /**
-     &lt;# function description #&gt;
-     
-     - Parameter &lt;# paramName #&gt;: &lt;#description#&gt;
-     
-     - Throws: &lt;# describe if function throws #&gt;
-     
-     - Returns: &lt;# describe the return value #&gt;
-     */
+	<string>    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+    }
 </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1CF0B515-D770-4A46-8D72-0D7DEF8DEB5D</string>
+	<string>3F5D202C-F7AE-4F74-8C6A-5BB03FDBEFC3</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Swift</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Swift Comment</string>
+	<string>ViewDidAppear_Swift</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
