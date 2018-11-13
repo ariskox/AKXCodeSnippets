@@ -3,26 +3,24 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewWillLayoutSubviews</string>
+	<string>jzh</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        
-    }
-</string>
+	<string>///Add here a small description for the class header </string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7CC03858-5767-44EC-A8F2-D3A37094673D</string>
+	<string>1358884C-3F5B-405C-BCAB-C1757D27EDF4</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>A small description for the class header</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>viewWillLayoutSubviews_Swift</string>
+	<string>Jazzy class header Description</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>

@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>viewWillLayoutSubviews</string>
+	<string>jzx</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
-		<string>ClassImplementation</string>
+		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-        
-    }
-</string>
+	<string>///:nodoc:
+&lt;#Code to exclude#&gt;
+///:nodoc:</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>7CC03858-5767-44EC-A8F2-D3A37094673D</string>
+	<string>D45A3830-7628-49A1-B231-9D26462BC2BF</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>This tags excludes code from documentation</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>viewWillLayoutSubviews_Swift</string>
+	<string>Jazzy exclude</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
-	<integer>2</integer>
+	<integer>0</integer>
 </dict>
 </plist>
